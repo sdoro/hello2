@@ -18,3 +18,10 @@
     pip install -r requirements.txt
     git commit -m "1. build a virtual environment with django 1.4.2"
     git push
+
+# 2. create a project named Rossi
+
+    django-admin.py startproject Rossi
+    git add Rossi README.md
+    git commit -m "2. create a project named Rossi"
+    git push
