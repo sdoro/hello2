@@ -30,3 +30,13 @@
 
     cd Rossi
     #edit Rossi/settings.py
+    git add ../README.md Rossi/settings.py 
+    git commit -m "3. set database name backend to Pierino"
+    git push
+
+# 4. verify that a browser can view and report url in a README.md files
+
+    ./manage.py runserver $IP:$PORT
+    http://hello2-sdoro.c9users.io/
+    git commit -m "4. verify that a browser can view and report url in a README.md files"
+    git push
