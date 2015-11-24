@@ -25,3 +25,8 @@
     git add Rossi README.md
     git commit -m "2. create a project named Rossi"
     git push
+
+# 3. set database name backend to Pierino
+
+    cd Rossi
+    #edit Rossi/settings.py
