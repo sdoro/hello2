@@ -61,3 +61,11 @@
     git add ../README.md Pierino/views.py
     git commit -m "7. make a view named myIp"
     git push
+
+# 8. change urls.py
+
+    # edit Pierino/urls.py
+    ./manage.py runserver $IP:$PORT
+    git add ../README.md Rossi/urls.py
+    git commit -m "8. change urls.py"
+    git push
