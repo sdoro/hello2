@@ -15,4 +15,7 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^helloIP$', 'Pierino.views.myIp'),
+    url(r'^year$', 'Pierino.views.year'),
+    url(r'^month$', 'Pierino.views.month'),
+    url(r'^day$', 'Pierino.views.day'),
 )

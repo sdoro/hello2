@@ -76,3 +76,10 @@
     git add ../README.md
     git commit -m "9. verify http"
     git push
+
+# 10. modify urls.py adding 3 views
+
+    # edit Rossi/urls.py
+    git add ../README.md Rossi/urls.py
+    git commit -m "10. modify urls.py adding 3 views"
+    git push
