@@ -54,3 +54,10 @@
     git add ../README.md
     git commit -m "6. install pif module"
     git push
+
+# 7. make a view named myIp
+
+    # edit Pierino/views.py
+    git add ../README.md Pierino/views.py
+    git commit -m "7. make a view named myIp"
+    git push
