@@ -83,3 +83,15 @@
     git add ../README.md Rossi/urls.py
     git commit -m "10. modify urls.py adding 3 views"
     git push
+
+# 11. build 3 view related to year, month, day ...
+
+    # edit Rossi/settings.py
+    MY_TEMPLATE=/home/ubuntu/workspace/template
+    mkdir $MYTEMPLATE
+    # make/edit $MY_TEMPLATE/base.html
+    # make/edit $MY_TEMPATE/estesa.html
+    # edit Pierino/views.py
+    git add ../README.md Pierino/views.py Rossi/settings.py ../template
+    git commit -m "11. build 3 view related to year, month, day ..."
+    git push
