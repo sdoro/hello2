@@ -47,3 +47,10 @@
     git add ../README.md Pierino
     git commit -m "5. create an app named Pierino"
     git push
+
+# 6. install pif module
+
+    pip install pif
+    git add ../README.md
+    git commit -m "6. install pif module"
+    git push
