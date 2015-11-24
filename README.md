@@ -40,3 +40,10 @@
     http://hello2-sdoro.c9users.io/
     git commit -m "4. verify that a browser can view and report url in a README.md files"
     git push
+
+# 5. create an app named Pierino
+
+    ./manage.py startapp Pierino
+    git add ../README.md Pierino
+    git commit -m "5. create an app named Pierino"
+    git push
