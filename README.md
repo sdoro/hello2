@@ -69,3 +69,10 @@
     git add ../README.md Rossi/urls.py
     git commit -m "8. change urls.py"
     git push
+
+# 9. verify http
+
+    # verify http://hello2-sdoro.c9users.io/helloIP
+    git add ../README.md
+    git commit -m "9. verify http"
+    git push
