@@ -1,10 +1,13 @@
 {% extends "base.html" %}
-{% block title %}{{ section.data }}{% endblock %}
 
-{% block h1 %}
-    {{ section.tempo }}
+{% block title %}
+    {{ terna.title }}
 {% endblock %}
 
-{% block ip %}
-    {{ section.ip }}
+{% block h1 %}
+    {{ terna.h1 }}
+{% endblock %}
+
+{% block p %}
+    {{ terna.p }}
 {% endblock %}
