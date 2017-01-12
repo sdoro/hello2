@@ -1,3 +1,6 @@
+from django.shortcuts import render
+
+# Create your views here.
 from pif import get_public_ip
 from django.http import HttpResponse
 

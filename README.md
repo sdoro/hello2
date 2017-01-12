@@ -9,14 +9,15 @@
     git remote add origin git@github.com:sdoro/hello2.git
     git push -u origin master
 
-# 1. build a virtual environment with django 1.4.2
+# 1. build a virtual environment with django 1.10.4 (and verify)
 
     virtualenv $HOME/.env
     source $HOME/.env/bin/activate
     # make/edit requirements.txt
     git add requirements.txt
     pip install -r requirements.txt
-    git commit -m "1. build a virtual environment with django 1.4.2"
+    pip freeze
+    git commit -m "1. build a virtual environment with django 1.10.4"
     git push
 
 # 2. create a project named Rossi
@@ -30,6 +31,8 @@
 
     cd Rossi
     #edit Rossi/settings.py
+    ./manage.py makemigrations Pierino
+    ./manage.py migrate
     git add ../README.md Rossi/settings.py 
     git commit -m "3. set database name backend to Pierino"
     git push
@@ -48,10 +51,11 @@
     git commit -m "5. create an app named Pierino"
     git push
 
-# 6. install pif module
+# 6. install pif module (and verify)
 
     pip install pif
     git add ../README.md
+    pip freeze
     git commit -m "6. install pif module"
     git push
 
@@ -87,11 +91,11 @@
 # 11. build 3 view related to year, month, day ...
 
     # edit Rossi/settings.py
-    MY_TEMPLATE=/home/ubuntu/workspace/template
-    mkdir $MYTEMPLATE
-    # make/edit $MY_TEMPLATE/base.html
-    # make/edit $MY_TEMPATE/estesa.html
+    mkdir Rossi/Pierino/template
+    # make/edit base.html
+    # make/edit estesa.html
     # edit Pierino/views.py
     git add ../README.md Pierino/views.py Rossi/settings.py ../template
     git commit -m "11. build 3 view related to year, month, day ..."
     git push
+
