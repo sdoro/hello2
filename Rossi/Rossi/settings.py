@@ -25,7 +25,7 @@ SECRET_KEY = 'x$g1d--9ovo4^z+%a@1v^pca(8om+r+eip%n#(v6lwm+dv5*b='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [u'hello2-sdoro.c9users.io']
 
 
 # Application definition
