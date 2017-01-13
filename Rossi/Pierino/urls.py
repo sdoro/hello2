@@ -7,4 +7,3 @@ urlpatterns = [
     url(r'^month$', views.month, name='month'),
     url(r'^day$', views.day, name='day'),
 ]
-

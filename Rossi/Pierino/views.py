@@ -16,17 +16,17 @@ from django.shortcuts import render
 def year(request):
     oggi = date.today()
     ip = get_public_ip()
-    tmp = {'title': oggi, 'h1': oggi.year, 'p': ip}
+    tmp = {'title': oggi, 'h1': 'year: ' + str(oggi.year), 'p': ip}
     return render(request, 'estesa.html', {'terna': tmp})
 
 def month(request):
     oggi = date.today()
     ip = get_public_ip()
-    tmp = {'title': oggi, 'h1': oggi.month, 'p': ip}
+    tmp = {'title': oggi, 'h1': "month: " + str(oggi.month), 'p': ip}
     return render(request, 'estesa.html', {'terna': tmp})
 
 def day(request):
     oggi = date.today()
     ip = get_public_ip()
-    tmp = {'title': oggi, 'h1': oggi.day, 'p': ip}
+    tmp = {'title': oggi, 'h1': "day: " + str(oggi.day), 'p': ip}
     return render(request, 'estesa.html', {'terna': tmp})
