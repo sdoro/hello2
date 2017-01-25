@@ -99,3 +99,9 @@
     git commit -m "11. build 3 view related to year, month, day ..."
     git push
 
+### 12. make and use static file (with a simple style.css)
+
+    mkdir -p Pierino/static/Pierino/css
+    > Pierino/static/Pierino/css/style.css
+    # edit Pierino/static/Pierino/css/style.css
+    # edit Pierino/templates/base.html
