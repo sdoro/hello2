@@ -30,3 +30,9 @@ def day(request):
     ip = get_public_ip()
     tmp = {'title': oggi, 'h1': "day: " + str(oggi.day), 'p': ip}
     return render(request, 'estesa.html', {'terna': tmp})
+
+def empty(request):
+    return render(request, 'base.html', {})
+
+def emptyArgs(request):
+    return render(request, 'estesa.html', {})

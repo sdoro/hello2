@@ -6,4 +6,6 @@ urlpatterns = [
     url(r'^year$', views.year, name='year'),
     url(r'^month$', views.month, name='month'),
     url(r'^day$', views.day, name='day'),
+    url(r'^empty$',views.empty),
+    url(r'^emptyArgs$',views.emptyArgs),
 ]
